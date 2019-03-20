@@ -1,6 +1,9 @@
 # Implementation of State Representation Learning Methods in Robotics
 
-- Maintenance will be available when the author finds a full-time job. Sorry he has to raise two kids. 
+- Maintenance will be available when the author finds a full-time job. Sorry he has to raise two kids with very limited fundings.
+- More details are in this paper: https://arxiv.org/abs/1903.00634
+- If you find the codes are useful, please cite my [paper][8]. Citations are REALLY valuable, for a PhD student in a not so that famous research group.
+- However, if you prefer not to cite due to various reasons (e.g., no enough space in your paper), I totally agree.
 
 Implementation of state representation methods (raw images) in robot hand eye coordination learning. States are raw images.
 
@@ -56,4 +59,4 @@ Implementation of state representation methods (raw images) in robot hand eye co
 [5]: https://github.com/atlas-jj/state-representation-robotics/blob/master/Dataset/Blocks/final/raw_20.jpg?raw=true
 [6]: https://github.com/atlas-jj/state-representation-robotics/blob/master/Dataset/Cloth/final/raw_20.jpg?raw=true
 [7]: https://wiki.python.org/moin/TkInter
-
+[8]: https://arxiv.org/abs/1903.00634
