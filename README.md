@@ -31,6 +31,21 @@ Implementation of state representation methods (raw images) in robot hand eye co
 - main_env.py: environment to play the robot model.
 - main_toy.py: main function to play with.
 
+## Results/latent_space
+- Results can be found under folder Results/each_task_specific_folder. E.g., an example of beta-VAE for the 'stack blocks' task.
+
+![](https://github.com/atlas-jj/state-representation-robotics/blob/master/Results/Blocks/beta-VAE/BlocksV2_h1r1_dim50_0.05_172.8_1000_111678.82_4.34.jpg?raw=true)
+
+## Results/TaskSpaceSampling
+- how to sample: sampling every possible states in the toy_example task (2D). Each state correspondes to one image. Feed each image to the learned state representation method and read the value. Then visualize all sampled values in the 2D task space.
+- beta-VAE: (one unit)
+
+![](https://github.com/atlas-jj/state-representation-robotics/blob/master/Results/TaskSpaceSampling/Toy_example_z1_gap1_color.png?raw=true)
+
+- SAE: (one unit)
+
+![](https://github.com/atlas-jj/state-representation-robotics/blob/master/Results/TaskSpaceSampling/Toy_example_SAE_gap1_z2.png?raw=true)
+
 [1]: https://en.wikipedia.org/wiki/Autoencoder
 [2]: https://arxiv.org/abs/1312.6114
 [3]: https://arxiv.org/abs/1804.03599
