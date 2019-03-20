@@ -1,4 +1,7 @@
 # Implementation of State Representation Learning Methods in Robotics
+
+- Maintenance will be available when the author finds a full-time job. Sorry he has to raise two kids. 
+
 Implementation of state representation methods (raw images) in robot hand eye coordination learning. States are raw images.
 
 ## Methods including: 
