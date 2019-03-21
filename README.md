@@ -4,7 +4,9 @@ Implementation of state representation methods (raw images) in robot hand eye co
 
 - Maintenance will be available when the author finds a full-time job. Sorry he has to raise two kids with very limited funding.
 - More details are in this paper: [Evaluation of state representation methods in robot hand-eye coordination learning from demonstration][8] .
+
 ![](https://github.com/atlas-jj/state-representation-robotics/blob/master/fig1.jpg?raw=true)
+
 - If you find the codes are useful, please cite my [paper][8]. Citations are REALLY valuable, for a PhD student in a not so that famous research group.
 - However, if you prefer not to cite due to various reasons (e.g., no enough space in your paper), I totally agree.
 
