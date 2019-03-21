@@ -1,23 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""Provides training and testing module for Bayesian Inference used in visual imitation learning.
-=============================================================================
-* paper: Robot Visual Imitation Learning using Variational Bayesian Inference
-* Author: Jun Jin (jjin5@ualberta.ca), University of Alberta
-* TimeMark: Dec 11, 2018
-* Status: Dev
-* License: check LICENSE in parent folder
-=============================================================================
-- input: training sample
-- output: network module + testing visualizations
-- comments: network module will further used in the control module.
-https://github.com/Nocorupe/dsae-tf-example/blob/master/dsae.py
-https://gist.github.com/jeasinema/1cba9b40451236ba2cfb507687e08834
-http://rll.berkeley.edu/dsae/dsae.pdf
-https://www.tensorflow.org/api_docs/python/tf/contrib/layers/spatial_softmax
-"""
 
-# code structure based on https://github.com/pytorch/examples/blob/master/vae/main.py
 from __future__ import print_function
 import sys, copy
 sys.path.insert(0,'../Lib/')

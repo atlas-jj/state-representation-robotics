@@ -1,19 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""Provides training and testing module for Bayesian Inference used in visual imitation learning.
-=============================================================================
-* paper: Robot Visual Imitation Learning using Variational Bayesian Inference
-* Author: Jun Jin (jjin5@ualberta.ca), University of Alberta
-* TimeMark: Dec 11, 2018
-* Status: Dev
-* License: check LICENSE in parent folder
-=============================================================================
-- input: training sample
-- output: network module + testing visualizations
-- comments: network module will further used in the control module.
-"""
 
-# code structure based on https://github.com/pytorch/examples/blob/master/vae/main.py
 from __future__ import print_function
 import dis_models as models
 import plot_result as pr
@@ -261,5 +248,3 @@ if __name__ == "__main__":
             gc.collect()
             print('sorry, system fell asleep 30s to cool down our expensive GPU...')
             time.sleep(20)  # freez the GPU
-
-
