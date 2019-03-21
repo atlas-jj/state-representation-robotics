@@ -53,6 +53,9 @@ Implementation of state representation methods (raw images) in robot hand eye co
 
 ![](https://github.com/atlas-jj/state-representation-robotics/blob/master/Results/TaskSpaceSampling/Toy_example_SAE_gap1_z2.png?raw=true)
 
+## [Evaluation][8]
+![](https://github.com/atlas-jj/state-representation-robotics/blob/master/fig2.jpg?raw=true)
+
 [1]: https://en.wikipedia.org/wiki/Autoencoder
 [2]: https://arxiv.org/abs/1312.6114
 [3]: https://arxiv.org/abs/1804.03599
