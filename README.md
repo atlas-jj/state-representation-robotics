@@ -50,7 +50,7 @@ Implementation of state representation methods (raw images) in robot hand eye co
 - how to sample: sampling every possible states in the toy_example task (2D). Each state correspondes to one image. Feed each image to the learned state representation method and read the value. Then visualize all sampled values in the 2D task space.
 - beta-VAE: (one unit)
 
-![](https://github.com/atlas-jj/state-representation-robotics/blob/master/Results/TaskSpaceSampling/Toy_example_z1_gap1_color.png?raw=true)
+<img src="https://github.com/atlas-jj/state-representation-robotics/blob/master/Results/TaskSpaceSampling/Toy_example_z1_gap1_color.png?raw=true" width="650"/>
 
 - SAE: (one unit)
 
